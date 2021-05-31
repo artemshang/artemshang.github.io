@@ -888,7 +888,7 @@ margin-bottom: 3vh;
 		opacity: 0.5;
 	}
 }
-@media screen and (orientation: landscape) and (max-width: 720px){
+@media screen and (orientation: landscape) and (max-width: 1024px){
 	#form_h1{
 		font-size: 2em;
 		width: 50vw;
