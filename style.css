@@ -735,6 +735,15 @@ margin-bottom: 3vh;
 		font-size: 2.3em;
 		width: 100vw;
 	}
+	#lds{
+		height: 50vh;
+	}
+	#lds_downBtn{
+		margin-top: -6vh;
+	}
+	#lds_img_btn{
+		margin-top: -2vh;
+	}
 	#mobile_Btn{
 		display: block;
 		margin-top:2vh;
@@ -743,7 +752,7 @@ margin-bottom: 3vh;
 		display: none;
 	}
 	.header_input, #select{
-		width: 30vw;
+		width: 40vw;
 	}
 	#nav{
 		padding: 0;
@@ -758,6 +767,7 @@ margin-bottom: 3vh;
 		top:-20vh;
 		transition: 0.7s;
 	}
+
 	.required{
   		position:relative;
  	 	right:6vw;
@@ -768,7 +778,6 @@ margin-bottom: 3vh;
 		text-align: center;
 	}
 	#subBtn{
-	
 		padding: 1.2vh 2vw; 
 	}
 	.active{
@@ -791,10 +800,13 @@ margin-bottom: 3vh;
 		font-size: 0.8em;
 	}
 	#iphone_downBtn{
-		margin-top: -9vh;
+		margin-top: -6vh;
 	}
 	#odg_downBtn{
-		margin-top: -2.9vh;
+		margin-top: -2.5vh;
+	}
+	#img_downBtn_odg{
+		margin-top: -4vh;
 	}
 	#buttons_block{
 		width: 90vw;
