@@ -512,8 +512,226 @@ margin-bottom: 3vh;
 	background-color: rgba(145,145,145,0.5);
 }
 /*media query*/
-@media screen and (orientation: portrait) and (max-width: 720px){
-#form_h1{
+
+@media screen and (orientation: portrait) and (min-height: 300px){
+	#form_h1{
+		font-size: 2.3em;
+		width: 100vw;
+	}
+	#mobile_Btn{
+		display: block;
+		margin-top:2vh;
+	}
+	#nav_block{
+		display: none;
+	}
+	#nav{
+		padding: 0;
+	}
+	#logo_block{
+		margin-top:0;
+	}
+	#mobile_nav_block{
+		display: block;
+		text-align: center;
+		position: relative;
+		top:-20vh;
+		transition: 0.7s;
+	}
+	.active{
+		padding-bottom: 1px;
+	}
+	#iphone_img{
+		width:50vw;
+	}
+	#odg_downBtn{
+		margin-top: -2.9vh;
+	}
+	#buttons_block{
+		width: 90vw;
+		padding:0;
+	}
+	#odg{
+		height: auto;
+	}
+	.odg_switchBtn{
+		display: block;
+	}
+	#odg_blocks{
+		flex-direction: column;
+	}
+	.odg_block{
+		margin-bottom: 1vh;
+	}
+	.odg_block_img{
+		width: 80vw;
+	}
+	.odg_label_img_block{
+		width: 80vw;
+	}
+	.odg_arrow{
+		left:10vw;
+	}
+	#cta_logo_block{
+		margin-top: 20vh;
+	}
+	#cta_header{
+		font-size:30px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	#cta_image{
+		width: 30vw;
+	}
+	#cta_header_para{
+		width: 70vw;
+		margin-top: 4vh;
+	}
+	#macbook{
+		bottom: 40vh;
+		left:20vw;
+		width: 80vw;
+	}
+	#laptop_block{
+		height: 10vh;
+	}
+	.footer_copy{
+		width: 80vw;
+		margin: 0 auto;
+		position: inherit;
+		text-align: center;
+		border-top: 2px solid #A7B2BD;
+		padding-top: 2vh;
+	}
+	#footer_blocks2{
+		height: 15vh;
+	}
+	#footer_block2{
+		margin-left: 50vw;
+	}
+	#share_block{
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+	#upBtn{
+		width: 10vw;
+		height: 10vw;
+		opacity: 0.5;
+	}
+	#form_h1{
+		font-size: 1.7em;
+		width: 100vw;
+		text-align: center;
+	}
+	#form_header{
+		margin-top: 20vh;
+		margin-left: 0vw;
+	}
+	#lorem_form{
+		width: 60vw;
+		margin:0 auto;
+		text-align: center;
+		font-size: 13px;
+	}
+	#header_btn{
+		margin-top: 2vh;
+	}
+	.header_input, #select{
+		width: 40vw;
+	}
+	input{
+		margin-left: 4vw;
+		margin-top: 0.5vh;
+		margin-bottom: 0.5vh;
+	}
+	#form{
+		text-align: center;
+	}
+	#subBtn{
+		width: 40vw;
+	}
+	.required{
+  		position:relative;
+ 	 	right:7vw;
+ 		top: 0.5vh;
+  		color:red;
+	}
+	.br_form{
+		display: block;
+	}
+	#lds_downBtn{
+		width: 60px;
+		height: 60px;
+		margin-top: -9vh;
+	}
+	#lds_img_btn{
+		width: 40%;
+		height: 40%;
+		margin-top: -4vh;
+	}
+	#lds{
+		height: 80vh;
+	}
+	#iphone_downBtn{
+		width: 60px;
+		height: 60px;
+		margin-top: -11vh;
+	}
+	#img_downBtn{
+		width: 40%;
+		height: 40%;
+	}
+	#lds_label{
+		font-size: 1.5em;
+	}
+	#lds_para{
+		font-size: 12px;
+	}
+	#ft_para{
+		width: 50vw;
+	}
+	.ft_img_block{
+		width: 50px;
+		height: 50px;
+	}
+	.ft_blocks_header{
+		font-size: 12px;
+	}
+	#ft_para{
+		font-size: 12px;
+	}
+	#ft_label{
+		font-size: 1.5em;
+	}
+	#odg_downBtn{
+		margin-top:-4vh;
+		width: 60px;
+		height: 30px;
+	}
+	#img_downBtn_odg{
+		width: 45%;
+		height: 90%;
+		margin-top:-8vh;
+	}
+	#odg_label{
+		font-size: 1.4em;
+	}
+	#odg_para{
+		font-size: 12px;
+	}
+	footer{
+		height: 60vh;
+	}
+	#footer_blocks2{
+		margin-bottom: 15vh;
+	}
+	.ft_blocks_para{
+		display: none;
+	}
+}
+@media screen and (orientation: portrait) and (min-height: 600px){
+	#form_h1{
 		font-size: 2.3em;
 		width: 100vw;
 	}
@@ -537,8 +755,8 @@ margin-bottom: 3vh;
 		display: block;
 		text-align: center;
 		position: relative;
-		top:-10vh;
-		transition: 1s;
+		top:-20vh;
+		transition: 0.7s;
 	}
 	.required{
   		position:relative;
@@ -658,52 +876,7 @@ margin-bottom: 3vh;
 		opacity: 0.5;
 	}
 }
-@media screen and (orientation: portrait) and (max-width: 500px){
-	#form_h1{
-		font-size: 2.3em;
-		width: 100vw;
-		text-align: center;
-	}
-	#form_header{
-		margin-top: 20vh;
-		margin-left: 0vw;
-	}
-	#lorem_form{
-		
-		width: 60vw;
-		margin:0 auto;
-		text-align: center;
-		
-	}
-	#header_btn{
-		margin-top: 2vh;
-	}
-	.header_input, #select{
-		width: 40vw;
-	}
-	input{
-		margin-left: 4vw;
-		margin-top: 0.5vh;
-		margin-bottom: 0.5vh;
-	}
-	#form{
-		text-align: center;
-	}
-	#subBtn{
-		width: 40vw;
-	}
-	.required{
-  		position:relative;
- 	 	right:7vw;
- 		top: 0.5vh;
-  		color:red;
-	}
-	.br_form{
-		display: block;
-	}
-}
-
-@media screen and (orientation: landscape) and (max-width: 1024px){
+@media screen and (orientation: landscape) and (max-width: 720px){
 	#form_h1{
 		font-size: 2em;
 		width: 50vw;
