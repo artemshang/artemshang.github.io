@@ -885,10 +885,10 @@ margin-bottom: 3vh;
 	#upBtn{
 		width: 10vw;
 		height: 10vw;
-		opacity: 0.5;
+		opacity: 0.6;
 	}
 }
-@media screen and (orientation: landscape) and (max-width: 720px){
+@media screen and (orientation: landscape) and (max-width: 1024px){
 	#form_h1{
 		font-size: 2em;
 		width: 50vw;
