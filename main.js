@@ -36,7 +36,7 @@ mobile_Btn.onclick = () =>{
 		mobile_nav_block.style.top = 0;
 		mode = 1
 	}else{
-		mobile_nav_block.style.top = '-20vh';
+		mobile_nav_block.style.top = '-10vh';
 		mode = 0
 	}
 }
